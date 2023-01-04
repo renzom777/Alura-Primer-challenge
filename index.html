@@ -15,30 +15,32 @@
     <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
     <script src="encriptar.js"></script>
 
-    <div class="parte_izquierda">
-        <header>
-            <img class="logo" src="images/Logo.png">
-        </header>
-
-        <textarea class="entrada" id="entrada" placeholder="Ingrese el texto aquí"></textarea>
-
-        <div class="botones">
-            <p class="advertencia"><iconify-icon icon="bi:exclamation-circle-fill"></iconify-icon> Sólo letras minúsculas y sin acentos</p>
-            <button class="encriptar" id="encriptar">Encriptar</button>
-            <button id="desencriptar">Desencriptar</button>
+    <div class="principal">
+        <div class="parte_izquierda">
+            <header>
+                <img class="logo" src="images/Logo.png">
+            </header>
+    
+            <textarea class="entrada" id="entrada" placeholder="Ingrese el texto aquí"></textarea>
+    
+            <div class="botones">
+                <p class="advertencia"><iconify-icon icon="bi:exclamation-circle-fill"></iconify-icon> Sólo letras minúsculas y sin acentos</p>
+                <button class="encriptar" id="encriptar">Encriptar</button>
+                <button id="desencriptar">Desencriptar</button>
+            </div>
         </div>
-    </div>
-
-    <div class="parte_derecha">
-        <div class="salida" id="texto_no_encontrado">
-            <img class="dentro_de_salida" id="munieco" src="images/Muñeco.png">
-            <p class="dentro_de_salida">Ningún mensaje fue<br>encontrado</p>
-            <p class="dentro_de_salida">Ingrese el texto que desees encriptar o<br>desencriptar</p>
-        </div>
-
-        <div class='salida' id='texto_encontrado'> 
-            <textarea class='convertido' id="texto_encriptado"></textarea> 
-            <button id="copiar">Copiar</button> 
+    
+        <div class="parte_derecha">
+            <div class="salida" id="texto_no_encontrado">
+                <img class="dentro_de_salida" src="images/Muñeco.png">
+                <p class="dentro_de_salida">Ningún mensaje fue<br>encontrado</p>
+                <p class="dentro_de_salida">Ingrese el texto que desees encriptar o<br>desencriptar</p>
+            </div>
+    
+            <div class='salida' id='texto_encontrado'> 
+                <textarea class='convertido' id="texto_encriptado"></textarea> 
+                <button id="copiar">Copiar</button> 
+            </div>
         </div>
     </div>
 

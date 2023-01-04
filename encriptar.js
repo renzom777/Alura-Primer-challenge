@@ -77,7 +77,7 @@ window.onload = function () {
     function mostrar_ocultar_encriptacion() {
         var ingreso = document.getElementById("entrada").value
         if (cumple_condiciones(ingreso)) {
-            texto_encontrado.style.display = 'block'
+            texto_encontrado.style.display = 'flex'
             texto_no_encontrado.style.display = 'none'
             var encriptacion = encriptar(ingreso)
             document.getElementById("texto_encriptado").value = encriptacion
@@ -92,7 +92,7 @@ window.onload = function () {
     function mostrar_ocultar_desencriptacion() {
         var ingreso = document.getElementById("entrada").value
         if (cumple_condiciones(ingreso)) {
-            texto_encontrado.style.display = 'block'
+            texto_encontrado.style.display = 'flex'
             texto_no_encontrado.style.display = 'none'
             var desencriptacion = desencriptar(ingreso)
             document.getElementById("texto_encriptado").value = desencriptacion
