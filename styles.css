@@ -174,8 +174,12 @@ button:hover {
     }
 
     .botones {
-        width: 50%;
+        width: 75%;
         margin: 200px auto 0;
+    }
+
+    button {
+        width: 100%;
     }
 
     .dentro_de_salida:first-child {
@@ -198,12 +202,7 @@ button:hover {
     }
 
     .botones {
-        width: 75%;
         margin: 50px auto 0;
-    }
-
-    button {
-        width: 100%;
     }
 
     .linkedin {
